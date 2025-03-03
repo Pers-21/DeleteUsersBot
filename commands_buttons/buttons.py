@@ -6,8 +6,8 @@ router = Router()
 def button():
     keyboar = ReplyKeyboardMarkup(
         keyboard=[
-        [KeyboardButton(text="🗑️Удалить пользывателей сейчас")],
-        [KeyboardButton(text="⏳Удалить пользывателей через...")],
+        [KeyboardButton(text="🗑️Удалить пользователей сейчас")],
+        [KeyboardButton(text="⏳Удалить пользователей через...")],
         [KeyboardButton(text="🚫 Отменить удаление")]
 
     ],
